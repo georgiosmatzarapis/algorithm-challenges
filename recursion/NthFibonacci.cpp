@@ -1,3 +1,5 @@
+// author: georgiosmatzarapis
+
 #include <iostream>
 
 int getNthFib(const int& iN) {

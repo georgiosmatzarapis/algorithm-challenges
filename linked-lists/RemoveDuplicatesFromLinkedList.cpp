@@ -1,3 +1,5 @@
+// author: georgiosmatzarapis
+
 #include <iostream>
 
 class LinkedList {
