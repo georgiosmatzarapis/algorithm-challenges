@@ -5,14 +5,14 @@
 #include <vector>
 
 static std::vector<int> insertionSort(std::vector<int> ioArray) {
-  const std::size_t aArraySize{ioArray.size()};
-  for (std::size_t aIndex{1}; aIndex != aArraySize; ++aIndex) {
-    if (ioArray[aIndex - 1] > ioArray[aIndex]) {
-      std::size_t aTempIndex{aIndex};
-      while (ioArray[aTempIndex - 1] >= ioArray[aTempIndex] &&
-             aTempIndex != 0) {
-        std::swap(ioArray[aTempIndex - 1], ioArray[aTempIndex]);
-        --aTempIndex;
+  const std::size_t sArraySize{ioArray.size()};
+  for (std::size_t sIndex{1}; sIndex != sArraySize; ++sIndex) {
+    if (ioArray[sIndex - 1] > ioArray[sIndex]) {
+      std::size_t sTempIndex{sIndex};
+      while (ioArray[sTempIndex - 1] >= ioArray[sTempIndex] &&
+             sTempIndex != 0) {
+        std::swap(ioArray[sTempIndex - 1], ioArray[sTempIndex]);
+        --sTempIndex;
       }
     }
   }
