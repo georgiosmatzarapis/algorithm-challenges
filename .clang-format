@@ -11,3 +11,6 @@ BreakConstructorInitializers: BeforeColon
 PackConstructorInitializers: CurrentLine
 AlignAfterOpenBracket: Align
 SpaceBeforeParens: ControlStatements
+AlwaysBreakTemplateDeclarations: Yes
+IndentCaseLabels: true
+ShortNamespaceLines: 0
